@@ -1,0 +1,23 @@
+@use '../abstracts/variables';
+
+html {
+  width: 100%;
+}
+section {
+  padding: 3rem;
+  max-width: 20.5rem;
+  @media only screen and (min-width: 1440px) {
+    width: 19.125rem;
+  }
+}
+h2 {
+  margin: 2rem 0 1.875rem;
+  color: variables.$neutral-2;
+}
+p {
+  margin-bottom: 1.625rem;
+  color: variables.$neutral-1;
+  @media only screen and (min-width: 1440px) {
+    margin-bottom: 5.125rem;
+  }
+}

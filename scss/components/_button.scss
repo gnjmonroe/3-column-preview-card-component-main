@@ -1,0 +1,17 @@
+@use '../abstracts/variables';
+
+button {
+  border: none;
+  border-radius: 1.5rem;
+  color: transparent;
+  background-color: variables.$neutral-2;
+  width: 9.25rem;
+  height: 3rem;
+  @media only screen and (min-width: 1440px) {
+    width: 9.125rem;
+  }
+  &:hover {
+    border: 2px solid variables.$neutral-2;
+    color: variables.$neutral-2;
+  }
+}

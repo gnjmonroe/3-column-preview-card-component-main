@@ -1,0 +1,31 @@
+@use '../abstracts/variables';
+
+.section {
+  &--sedans {
+    background-color: variables.$primary-1;
+    & button {
+      color: variables.$primary-1;
+      &:hover {
+        background-color: variables.$primary-1;
+      }
+    }
+  }
+  &--suvs {
+    background-color: variables.$primary-2;
+    & button {
+      color: variables.$primary-2;
+      &:hover {
+        background-color: variables.$primary-2;
+      }
+    }
+  }
+  &--luxury {
+    background-color: variables.$primary-3;
+    & button {
+      color: variables.$primary-3;
+      &:hover {
+        background-color: variables.$primary-3;
+      }
+    }
+  }
+}

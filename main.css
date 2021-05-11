@@ -1,0 +1,197 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+*::before,
+*::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+html {
+  width: 100%;
+}
+
+section {
+  padding: 3rem;
+  max-width: 20.5rem;
+}
+@media only screen and (min-width: 1440px) {
+  section {
+    width: 19.125rem;
+  }
+}
+
+h2 {
+  margin: 2rem 0 1.875rem;
+  color: #f2f2f2;
+}
+
+p {
+  margin-bottom: 1.625rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+@media only screen and (min-width: 1440px) {
+  p {
+    margin-bottom: 5.125rem;
+  }
+}
+
+.lexend-400 {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+.big-shoulders-700 {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.5em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 0.9375em;
+  line-height: 1.7;
+}
+
+button {
+  font-size: 0.9375em;
+}
+
+button {
+  border: none;
+  border-radius: 1.5rem;
+  color: transparent;
+  background-color: #f2f2f2;
+  width: 9.25rem;
+  height: 3rem;
+}
+@media only screen and (min-width: 1440px) {
+  button {
+    width: 9.125rem;
+  }
+}
+button:hover {
+  border: 2px solid #f2f2f2;
+  color: #f2f2f2;
+}
+
+.section--sedans {
+  background-color: #e38826;
+}
+.section--sedans button {
+  color: #e38826;
+}
+.section--sedans button:hover {
+  background-color: #e38826;
+}
+.section--suvs {
+  background-color: #006970;
+}
+.section--suvs button {
+  color: #006970;
+}
+.section--suvs button:hover {
+  background-color: #006970;
+}
+.section--luxury {
+  background-color: #004241;
+}
+.section--luxury button {
+  color: #004241;
+}
+.section--luxury button:hover {
+  background-color: #004241;
+}
+
+body {
+  display: flex;
+  background-color: #f2f2f2;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 5.5rem 1.5rem;
+  border-radius: 0.5625rem;
+  overflow: hidden;
+}
+@media only screen and (min-width: 1440px) {
+  main {
+    flex-direction: row;
+    margin: auto 0;
+    border-radius: 0.375rem;
+    height: 31.25rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
